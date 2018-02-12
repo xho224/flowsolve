@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flowsolve</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!--css core-->
+        <link href="{{ url_for('static',filename='css/bootstrap.min.css') }}" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="/static/css/album.css" rel="stylesheet">
+        <link rel="shortcut icon" href="{{ url_for('static',filename='icon.png') }} ">
+    <body>
+
+        <header>
+          <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8 py-4">
+                  <h4 class="text-white">About</h4>
+                  <p class="text-muted">FLOWSOLVE is a company that looks to the future,
+                      and who knows how important it is to be present on the planet,
+                      and therefore we have offices and representatives in key countries.</p>
+                </div>
+                <div class="col-sm-4 py-4">
+                  <h4 class="text-white">Contact</h4>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                    <li><a href="#" class="text-white">Like on Facebook</a></li>
+                    <li><a href="#" class="text-white">Email me</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar navbar-dark bg-dark">
+            <div class="container d-flex justify-content-between">
+              <a href="#" class="navbar-brand">Flowsolve</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </header>
+
+        <main role="main">
+
+          <section class="jumbotron text-center">
+            <div class="container">
+              <h1 class="jumbotron-heading">QUALITY YOU CAN TRUST</h1>
+              <p class="lead text-muted">Because quality is the cornerstone of our work.
+                  The most firm step towards the future, the only way to retain customers.
+                  At FLOWSOLVE we have made a great effort to optimize the quality process,
+                  and to obtain all the certifications that homologate our products.
+</p>
+              <p>
+                <a href="#" class="btn btn-primary">Products Gallary</a>
+              </p>
+            </div>
+          </section>
+
+          <div class="album text-muted">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-lg-6">
+                <div class="card">
+                  <img src="/static/image/valve1.jpg" alt="Card image cap">
+                  <p class="card-text">FLOWSOLVE</p>
+                </div>
+                </div>
+                <div class="col-lg-6">
+                <div class="card">
+                  <img src="/static/image/valve4.png" alt="Card image cap">
+                  <p class="card-text">FLOWSOLVE</p>
+                </div>
+                </div>
+
+
+
+
+                <div class="col-lg-6">
+                <div class="card">
+                  <img src="/static/image/valve2.jpg" alt="Card image cap">
+                  <p class="card-text">FLOWSOLVE</p>
+                </div>
+                </div>
+                <div class="col-lg-6">
+                <div class="card">
+                  <img src="/static/image/valve3.jpg" alt="Card image cap">
+                  <p class="card-text">FLOWSOLVE</p>
+                </div>
+                </div>
+
+
+
+                <div class="col-lg-6">
+                <div class="card">
+                  <img src="/static/image/valve5.png" alt="Card image cap">
+                  <p class="card-text">FLOWSOLVE</p>
+                </div>
+                </div>
+                <div class="col-lg-6">
+                <div class="card">
+                  <img data-src="holder.js/100px431.99?theme=thumb" alt="Card image cap">
+                  <p class="card-text">FLOWSOLVE</p>
+                </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </main>
+
+        <footer class="text-muted">
+          <div class="container">
+            <p class="float-right">
+              <a href="#">Back to top</a>
+            </p>
+            <p>This website is &copy; Flowsolve</p>
+            <p>New to Flowsolve? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+          </div>
+        </footer>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <!--Propper.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <!--Javascript-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+        <script src="/static/css/holder.min.js"></script>
+        <script>
+          Holder.addTheme('thumb', {
+            bg: '#55595c',
+            fg: '#eceeef',
+            text: 'QUALITY'
+          });
+        </script>
+    </body>
+</html>
