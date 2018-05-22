@@ -16,6 +16,11 @@ def homepage():
     #return a template
     return render_template("main.html")
 
+@app.route('/product')
+def product():
+    #return a template
+    return render_template("product.html")
+
 #Set the secret key.  keep this really secret:
 app.secret_key = '???'
 
